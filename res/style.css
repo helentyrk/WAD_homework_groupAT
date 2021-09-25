@@ -11,6 +11,7 @@
 	header {
 		background-color: white;
 		padding: 20px;
+		/* kuidas saada search-box keskele? kast: border: 2px solid #73AD21; */
 		}
 
 	/* search box */
@@ -35,30 +36,38 @@
 		background-color: #3333cc;
 		color: white;
 		}
-		
+	/* Flexbox */	
 	section.flex-container {
 		display: flex;
 		flex-flow: row;
 		}
-
+		
+	/* style middle container */
 	section div.content-container{
 		width: 50%;
-		height: 600px;
+		height: 1000px;
 		background-color: white;
 		}
 	
+	/*style sidebars */
 	section div.sidebar{
 		width: 25%;
-		height: 600px;
+		height: 1000px;
 		background-color: blue;
 		}
 	
+	/* style images in the content container (posts) */
 	.content-container ul li img {
-		width: 35%;
-		height: 600px;
-		object-fit: cover;
-		float: left;
-		margin-right: 20px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 70%;
 		}
+		
+	/* remove bullet points from the list */
+	li {
+		list-style: none;
+		}
+		
 	
 		
