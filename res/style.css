@@ -1,0 +1,64 @@
+* {
+	font-family: 'Lato', sans-serif;
+	}
+	
+	html, body {
+		margin: 0;
+		padding: 0;
+		background-color: blue;
+		}
+
+	header {
+		background-color: white;
+		padding: 20px;
+		}
+
+	/* search box */
+	nav div.search-container > input {
+		box-sizing: border-box;
+		height: 40 px;
+		width: 20%;
+		margin: 0;
+		padding: 10px;
+		border: 2px solid #e0e0e0;
+		}
+		
+	/* search box button */
+	nav div.search-container > button {
+		box-sizing: border-box;
+		height: 40px;
+		width: 60px;
+		margin: 0;
+		padding: 10px;
+		border: 1px solid #e0e0e0;
+		cursor: pointer;
+		background-color: #3333cc;
+		color: white;
+		}
+		
+	section.flex-container {
+		display: flex;
+		flex-flow: row;
+		}
+
+	section div.content-container{
+		width: 50%;
+		height: 600px;
+		background-color: white;
+		}
+	
+	section div.sidebar{
+		width: 25%;
+		height: 600px;
+		background-color: blue;
+		}
+	
+	.content-container ul li img {
+		width: 35%;
+		height: 600px;
+		object-fit: cover;
+		float: left;
+		margin-right: 20px;
+		}
+	
+		
