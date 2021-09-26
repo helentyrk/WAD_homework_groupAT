@@ -5,18 +5,25 @@
 	html, body {
 		margin: 0;
 		padding: 0;
-		background-color: blue;
+		background-color: white;
 		}
 
 	header {
 		background-color: white;
 		padding: 20px;
-		/* kuidas saada search-box keskele? kast: border: 2px solid #73AD21; */
+		margin-left: auto;
+  		margin-right: auto;
 		}
+		
+	nav div.search-container {
+		text-align: center;
+		}
+
 
 	/* search box */
 	nav div.search-container > input {
 		box-sizing: border-box;
+		border: 2px solid #73AD21;
 		height: 40 px;
 		width: 20%;
 		margin: 0;
@@ -61,12 +68,30 @@
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 70%;
+		width: 80%;
 		}
 		
-	/* remove bullet points from the list */
+	/* remove bullet points from the list, add border to an item */
 	li {
 		list-style: none;
+		border-style: groove;
+		text-align: left;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		}
+		
+	/* style post text */
+	p.text {
+		text-align: left;
+		}
+		
+	
+	/* ID selector */
+	
+	#date_time {
+		font-weight: lighter;
+		text-align: right;
 		}
 		
 	
